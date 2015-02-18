@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html class="boxed">
+<head>
+
+<!-- Basic -->
+
+<meta charset="utf-8">
+<title>Forge Gaming Network - 1v1 League of Legends Tournament</title>
+<meta name="keywords" content="Forge Gaming Network - 1v1 League of Legends Tournament" />
+<meta name="description" content="Forge Gaming Network - 1v1 League of Legends Tournament">
+<meta name="author" content="Forge Gaming Network">
+
+<!-- Mobile Metas -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Web Fonts  -->
+
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+<!-- Vendor CSS -->
+
+		<link rel="stylesheet" href="vendor/bootstrap/bootstrap.css">
+
+		<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css">
+
+		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" media="screen">
+
+
+
+		<!-- Theme CSS -->
+
+		<link rel="stylesheet" href="css/theme.css">
+
+		<link rel="stylesheet" href="css/theme-elements.css">
+
+		<link rel="stylesheet" href="css/theme-blog.css">
+
+		<link rel="stylesheet" href="css/theme-shop.css">
+
+		<link rel="stylesheet" href="css/theme-animate.css">
+
+
+
+		<!-- Current Page CSS -->
+
+		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" media="screen">
+
+		<link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css" media="screen">
+
+
+
+		<!-- Skin CSS -->
+
+		<link rel="stylesheet" href="css/skins/default.css">
+
+
+
+		<!-- Theme Custom CSS -->
+
+		<link rel="stylesheet" href="css/custom.css">
+
+
+
+		<!-- Head Libs -->
+
+		<script src="vendor/modernizr/modernizr.js"></script>
+
+
+
+		<!--[if IE]>
+
+			<link rel="stylesheet" href="css/ie.css">
+
+		<![endif]-->
+
+
+
+		<!--[if lte IE 8]>
+
+			<script src="vendor/respond/respond.js"></script>
+
+			<script src="vendor/excanvas/excanvas.js"></script>
+
+		<![endif]-->
+
+</head>
+
+<body>
+<div class="body boxed">
+<div role="main" class="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="alert alert-success hidden" id="contactSuccess"> <strong>Success!</strong> You have been entered into the tournament! </div>
+        <div class="alert alert-danger hidden" id="contactError"> <strong>Error!</strong> </div>
+        
+        <h2 class="short"><strong>Forge Gaming Network</strong> 1v1 League of Legends Tournament</h2>
+        <form id="contactForm" action="validate.php" method="POST">
+        
+        
+          <div class="row form-group">
+            <div class="col-md-6">
+              <label>Summoner name *</label>
+              <input type="text" value="" data-msg-required="Please enter your Summoner name." maxlength="16" class="form-control" name="summonerName" id="summonerName" required>
+              <input type="hidden" value="euw" name="region" id="region">
+            </div>
+            <div class="col-md-6">
+              <label>Teamspeak nickname *</label>
+              <input type="text" value="" data-msg-required="Please enter your Teamspeak nickname." maxlength="16" class="form-control" name="tsNick" id="tsNick" required>
+            </div>
+          </div>
+          
+          
+          <div class="row form-group">
+            <div class="col-md-6">
+              <label>First name *</label>
+              <input type="text" value="" data-msg-required="Please enter your first name." maxlength="16" class="form-control" name="firstName" id="firstName" required>
+            </div>
+            <div class="col-md-6">
+              <label>Surname *</label>
+              <input type="text" value="" data-msg-required="Please enter your surname." maxlength="16" class="form-control" name="surname" id="surname" required>
+            </div>
+          </div>
+          
+          <div class="row form-group">
+            <div class="col-md-6">
+              <label>Email address *</label>
+              <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="30" class="form-control" name="email" id="email" required>
+            </div>
+            
+            <div class="col-md-6">
+              <label>DGL Code *</label>
+              <input type="text" value="" data-msg-required="Please enter the DGL validation code." maxlength="30" class="form-control" name="dgl" id="dgl" required>
+            </div>
+          </div>
+          
+          <div class="row form-group">
+            <div class="col-md-12">
+            	<div class="checkbox">
+                <label><input type="checkbox" value="accepted" name="terms" id="terms">I agree to the rules</label>
+                </div>
+            </div>
+          </div>
+          
+          <div class="row form-group">
+            <div class="col-md-12">
+              <input type="submit" value="Enter Tournament" class="btn btn-primary btn-lg" data-loading-text="Loading...">
+            </div>
+          </div>
+          
+        </form>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Vendor -->
+
+		<script src="vendor/jquery/jquery.js"></script>
+
+		<script src="vendor/jquery.appear/jquery.appear.js"></script>
+
+		<script src="vendor/jquery.easing/jquery.easing.js"></script>
+
+		<script src="vendor/jquery-cookie/jquery-cookie.js"></script>
+
+		<script src="vendor/bootstrap/bootstrap.js"></script>
+
+		<script src="vendor/common/common.js"></script>
+
+		<script src="vendor/jquery.validation/jquery.validation.js"></script>
+
+		<!-- Theme Base, Components and Settings -->
+
+		<script src="js/theme.js"></script>
+
+    <!--  Contact Loading js THIS IS THE VISUAL SCRIPT -->
+    <script src="js/views/view.contact.js"></script> 
+
+</body>
+</html>
